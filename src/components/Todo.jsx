@@ -143,7 +143,7 @@ function Todo() {
                 {isTodoLoading ? (
                   <Skeleton className="h-4 w-4" />
                 ) : (
-                  getTodo.getTodos.length
+                  getTodo?.getTodos?.length
                 )}
               </span>
               Tasks
